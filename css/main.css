@@ -1,0 +1,412 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html {
+color: #222;
+font-size: 1em;
+line-height: 1.4;
+}
+
+::-moz-selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+
+::selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+vertical-align: middle;
+}
+
+fieldset {
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+textarea {
+resize: vertical;
+}
+
+.browserupgrade {
+margin: 0.2em 0;
+background: #ccc;
+color: #000;
+padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+
+/* FetteEngschrift */
+@font-face {
+font-family: "FetteEngschrift";
+src: url("../fonts/FetteEngschrift_gdi.eot");
+src: url("../fonts/FetteEngschrift_gdi.eot?#iefix")format("embedded-opentype"),
+url("../fonts/FetteEngschrift_gdi.woff") format("woff"),
+url("../fonts/FetteEngschrift_gdi.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+html {
+background: url('../img/background.jpg') no-repeat scroll left top;
+background-size: cover;
+-moz-background-clip: border;
+-moz-background-origin: padding;
+-moz-background-inline-policy: continuous;
+}
+html > body #container {
+height: auto;
+}
+#container {
+position: relative;
+}
+a {
+text-decoration: none;
+outline: none;
+}
+
+a:hover {
+outline: none;
+}
+#logo {
+position: absolute;
+outline: none;
+height: 587px;
+width: 217px;
+
+background: #5fa438;
+}
+
+#logo img {
+  position: relative;
+top: 157px;
+left: 5px;
+}
+#logo a:hover img {
+outline: none;
+
+}
+
+nav {
+width: 1000px;
+height: 35px;
+position: relative;
+left: 80px;
+-moz-background-clip: border;
+-moz-background-origin: padding;
+-moz-background-inline-policy: continuous;
+}
+
+nav div {
+width: 1000px;
+}
+
+nav ul {
+margin: 0px 0px 0px 37px;
+padding: 0pt;
+list-style-type: none;
+}
+nav ul.nav li {
+margin: 0pt;
+padding: 0pt;
+height: 35px;
+}
+
+nav ul.left li {
+float: left;
+}
+
+nav ul.nav li {
+float: right;
+}
+
+nav a {
+line-height: 35px;
+display: block;
+outline: none;
+background: #5fa438;
+color: white;
+padding: 9px 25px;
+font-family: "FetteEngschrift";
+font-size: 22px;
+}
+nav a:hover {
+background: #539434;
+}
+.number {
+position: absolute;
+/* float: right; */
+top: 62px;
+left: 899px;
+font-family: "FetteEngschrift";
+font-size: 21px;
+color: #5fa438;
+}
+
+
+#content {
+padding: 249px 0px 0px 297px;
+width: 900px;
+height: 700px;
+}
+
+h1 {
+color: #9a5385;
+line-height: 1;
+font-family: "FetteEngschrift";
+font-weight: 500;
+font-size: 34px;
+}
+.main p {
+font-family: 'Raleway', sans-serif;
+
+}
+
+.main {
+position: relative;
+width: 780px;
+margin-top: 20px;
+}
+
+.foto > div {
+width: 49%;
+display: inline-block;
+}
+.foto img {
+width: 100%;
+}
+
+.foto-kreativ>div {
+width: 31%;
+display: inline-block;
+margin: 25px 10px 20px 0;
+}
+.foto-kreativ img {
+height: auto;
+width: 100%;
+}
+.foto-kreativ figcaption {
+padding: 10px 0 0 5px;
+font-family: 'Raleway', sans-serif;
+}
+.main p span {
+color: #5fa438;
+}
+
+p.sribe {
+font-size: 12px;
+}
+
+.main >div {
+display: inline-block;
+}
+
+iframe {
+  width: 436px;
+height: 336px;
+border: 0;
+position: relative;
+top: -32px;;
+left: 86px;
+border:0;
+}
+.main+div {
+  margin-right: 100px;
+}
+h1.aufbluhen {
+  margin-top: 53px;
+}
+h1.serviсe {
+  margin-top: 36px;
+}
+h1.kreativ {
+    margin-top: -11px;
+}
+h1.hochzeitst {
+  margin-top: -144px;
+    line-height: 40px;
+    font-size: 31px;
+}
+h1.traur {
+  margin-top: 150px;
+margin-bottom: 34px;
+}
+h1.contakt {
+  margin: 131px 0 0 0;
+}
+h1.worktime {
+    margin: 66px 0 33px 0;
+}
+
+.for_kont {
+  padding: 31px 0px 0px 297px;
+width: 900px;
+height: 700px;
+}
+.for_kont table,
+.for_kont p {
+  font-family: 'Raleway', sans-serif;
+}
+
+table td:first-child {
+    width: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+   (-o-min-device-pixel-ratio: 5/4),
+   (-webkit-min-device-pixel-ratio: 1.25),
+   (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+.hidden {
+display: none !important;
+visibility: hidden;
+}
+
+.visuallyhidden {
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+clip: auto;
+height: auto;
+margin: 0;
+overflow: visible;
+position: static;
+width: auto;
+}
+
+.invisible {
+visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+
+.clearfix:after {
+clear: both;
+}
+
+.clearfix {
+*zoom: 1;
+}
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+
+@media print {
+*,
+*:before,
+*:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+a,
+a:visited {
+    text-decoration: underline;
+}
+
+a[href]:after {
+    content: " (" attr(href) ")";
+}
+
+abbr[title]:after {
+    content: " (" attr(title) ")";
+}
+
+a[href^="#"]:after,
+a[href^="javascript:"]:after {
+    content: "";
+}
+
+pre,
+blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
+
+thead {
+    display: table-header-group;
+}
+
+tr,
+img {
+    page-break-inside: avoid;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2,
+h3 {
+    page-break-after: avoid;
+}
+}
