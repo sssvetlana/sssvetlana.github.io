@@ -78,9 +78,7 @@ background-size: cover;
 html > body #container {
 height: auto;
 }
-#container {
-position: relative;
-}
+
 a {
 text-decoration: none;
 outline: none;
@@ -107,27 +105,19 @@ left: 5px;
 outline: none;
 }
 
-nav {
-width: 1100px;
-}
-
 nav ul {
-margin: 0px 0px 0px 37px;
+margin: 0px 0px 0px 0px;
 padding: 0pt;
 list-style-type: none;
 }
-nav ul.nav li {
-margin: 0pt;
-padding: 0pt;
-height: 35px;
+nav li {
+margin: 0;
+padding: 0;
+height: 53px;
 }
 
-nav ul.left li {
-float: left;
-}
-
-nav ul.nav li {
-float: right;
+nav li {
+  float: left;
 }
 
 nav a {
@@ -136,7 +126,7 @@ display: block;
 outline: none;
 background: #5fa438;
 color: white;
-padding: 9px 25px;
+padding: 9px 28px;
 font-family: "FetteEngschrift";
 font-size: 22px;
 }
@@ -144,15 +134,17 @@ nav a:hover {
 background: #539434;
 }
 .number {
-float: right;
-  margin: 33px 273px -62px 0;
+  text-align: right;
+    width: 800px;
+  margin: 7px 0 0 0;
   font-family: "FetteEngschrift";
   font-size: 21px;
   color: #5fa438;
 }
 
 #content {
-height: 700px;
+  width: 1119px;
+  height: 700px;
 }
 
 h1 {
@@ -167,7 +159,7 @@ font-family: 'Raleway', sans-serif;
 
 }
 .center {
-  margin: 249px 0 120px 19px;
+  margin: 197px 0 120px 19px;
   width: 800px;
 }
 
