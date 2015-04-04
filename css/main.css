@@ -144,12 +144,11 @@ nav a:hover {
 background: #539434;
 }
 .number {
-position: absolute;
-top: 62px;
-left: 938px;
-font-family: "FetteEngschrift";
-font-size: 21px;
-color: #5fa438;
+float: right;
+  margin: 33px 273px -62px 0;
+  font-family: "FetteEngschrift";
+  font-size: 21px;
+  color: #5fa438;
 }
 
 #content {
@@ -163,7 +162,7 @@ font-family: "FetteEngschrift";
 font-weight: 500;
 font-size: 34px;
 }
-.main p {
+#content p {
 font-family: 'Raleway', sans-serif;
 
 }
@@ -193,7 +192,7 @@ width: 100%;
 padding: 10px 0 0 5px;
 font-family: 'Raleway', sans-serif;
 }
-.main p span {
+#content p span {
 color: #5fa438;
 }
 
@@ -201,21 +200,21 @@ p.sribe {
 font-size: 12px;
 }
 
-.main >div {
+#content >div {
 display: inline-block;
 vertical-align: top;
 }
 
 iframe {
-  width: 436px;
-height: 336px;
-border: 0;
-position: relative;
-top: 224px;
-left: 105px;
-border:0;
+  width: 354px;
+  height: 321px;
+  border: 0;
+  position: relative;
+  top: 244px;
+  left: 189px;
+  border: 0;
 }
-.main+div {
+#content+div {
   margin-right: 100px;
 }
 h1.aufbluhen {
