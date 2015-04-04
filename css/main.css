@@ -90,12 +90,12 @@ a:hover {
 outline: none;
 }
 #logo {
-position: absolute;
 outline: none;
 height: 587px;
 width: 217px;
-
+margin-right: 80px;
 background: #5fa438;
+float: left;
 }
 
 #logo img {
@@ -105,21 +105,10 @@ left: 5px;
 }
 #logo a:hover img {
 outline: none;
-
 }
 
 nav {
-width: 1000px;
-height: 35px;
-position: relative;
-left: 80px;
--moz-background-clip: border;
--moz-background-origin: padding;
--moz-background-inline-policy: continuous;
-}
-
-nav div {
-width: 1000px;
+width: 1100px;
 }
 
 nav ul {
@@ -156,18 +145,14 @@ background: #539434;
 }
 .number {
 position: absolute;
-/* float: right; */
 top: 62px;
-left: 899px;
+left: 938px;
 font-family: "FetteEngschrift";
 font-size: 21px;
 color: #5fa438;
 }
 
-
 #content {
-padding: 249px 0px 0px 297px;
-width: 900px;
 height: 700px;
 }
 
@@ -182,11 +167,9 @@ font-size: 34px;
 font-family: 'Raleway', sans-serif;
 
 }
-
-.main {
-position: relative;
-width: 780px;
-margin-top: 20px;
+.center {
+  margin: 249px 0 120px 19px;
+  width: 800px;
 }
 
 .foto > div {
@@ -220,6 +203,7 @@ font-size: 12px;
 
 .main >div {
 display: inline-block;
+vertical-align: top;
 }
 
 iframe {
@@ -227,8 +211,8 @@ iframe {
 height: 336px;
 border: 0;
 position: relative;
-top: -32px;;
-left: 86px;
+top: 224px;
+left: 105px;
 border:0;
 }
 .main+div {
@@ -241,10 +225,10 @@ h1.serviсe {
   margin-top: 36px;
 }
 h1.kreativ {
-    margin-top: -11px;
+  margin-top: 12px;
 }
 h1.hochzeitst {
-  margin-top: -144px;
+  margin-top: -122px;
     line-height: 40px;
     font-size: 31px;
 }
@@ -258,14 +242,12 @@ h1.contakt {
 h1.worktime {
     margin: 66px 0 33px 0;
 }
-
-.for_kont {
-  padding: 31px 0px 0px 297px;
-width: 900px;
-height: 700px;
+.center_kontakt {
+    margin: 52px 0 0 19px;
 }
-.for_kont table,
-.for_kont p {
+
+.center_kontakt table,
+.center_kontakt p {
   font-family: 'Raleway', sans-serif;
 }
 
