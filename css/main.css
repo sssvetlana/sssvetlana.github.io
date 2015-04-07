@@ -70,13 +70,13 @@ font-weight: normal;
 
 html {
 background: url('../img/background.jpg') no-repeat scroll left top;
-background-size: cover;
+background-size: 130%;
 -moz-background-clip: border;
 -moz-background-origin: padding;
 -moz-background-inline-policy: continuous;
 }
 html > body #container {
-height: auto;
+
 }
 
 a {
@@ -107,7 +107,7 @@ outline: none;
 
 nav ul {
 margin: 0px 0px 0px 0px;
-padding: 0pt;
+  padding: 15px 0 0 0;
 list-style-type: none;
 }
 nav li {
@@ -126,25 +126,25 @@ display: block;
 outline: none;
 background: #5fa438;
 color: white;
-padding: 9px 28px;
-font-family: "FetteEngschrift";
-font-size: 22px;
+  padding: 4px 28px;
+  font-family: "FetteEngschrift";
+  font-size: 21px;
+    border: 1px solid #539434;
 }
 nav a:hover {
 background: #539434;
 }
 .number {
-  text-align: right;
-    width: 800px;
-  margin: 7px 0 0 0;
+  margin: 26px 39px 0 0px;
+  float: right;
   font-family: "FetteEngschrift";
-  font-size: 21px;
+  font-size: 22px;
   color: #5fa438;
 }
 
 #content {
   width: 1119px;
-  height: 700px;
+
 }
 
 h1 {
@@ -154,18 +154,30 @@ font-family: "FetteEngschrift";
 font-weight: 500;
 font-size: 34px;
 }
+h2 {
+  margin: 15px 0px 0 0;
+  font-size: 36px;
+ color: #5fa438;
+ font-weight: 500;
+font-family: "FetteEngschrift";
+}
+h2 span {
+  font-family: 'Raleway', sans-serif;
+
+}
 #content p {
 font-family: 'Raleway', sans-serif;
 
 }
 .center {
-  margin: 197px 0 120px 19px;
+  margin: 163px 0 120px 19px;
   width: 800px;
 }
 
 .foto > div {
-width: 49%;
-display: inline-block;
+  width: 48%;
+  display: inline-block;
+  margin: 0 13px 0 0px;
 }
 .foto img {
 width: 100%;
@@ -174,7 +186,7 @@ width: 100%;
 .foto-kreativ>div {
 width: 31%;
 display: inline-block;
-margin: 25px 10px 20px 0;
+  margin: 20px 10px 15px 0;
 }
 .foto-kreativ img {
 height: auto;
@@ -194,7 +206,7 @@ font-size: 12px;
 
 #content >div {
 display: inline-block;
-vertical-align: top;
+  vertical-align: middle;
 }
 
 iframe {
@@ -202,7 +214,7 @@ iframe {
   height: 321px;
   border: 0;
   position: relative;
-  top: 244px;
+  top: 35px;
   left: 189px;
   border: 0;
 }
@@ -210,31 +222,29 @@ iframe {
   margin-right: 100px;
 }
 h1.aufbluhen {
-  margin-top: 53px;
+  margin-top: 38px;
 }
 h1.serviсe {
-  margin-top: 36px;
+  margin-top: 92px;
 }
 h1.kreativ {
-  margin-top: 12px;
+  margin-top: 131px;
 }
 h1.hochzeitst {
-  margin-top: -122px;
-    line-height: 40px;
-    font-size: 31px;
+  margin-top: 156px;
 }
 h1.traur {
-  margin-top: 150px;
+  margin-top: 135px;
 margin-bottom: 34px;
 }
 h1.contakt {
-  margin: 131px 0 0 0;
+  margin: 7px 0 0 0;
 }
 h1.worktime {
-    margin: 66px 0 33px 0;
+    margin: 51px 0 33px 0;
 }
 .center_kontakt {
-    margin: 52px 0 0 19px;
+    margin: 52px 0 100px 19px;
 }
 
 .center_kontakt table,
@@ -245,8 +255,59 @@ h1.worktime {
 table td:first-child {
     width: 130px;
 }
+.text_scribe {
+  width: 780px;
+ font-size: 19px;
+  margin: 126px 0 30px 0;
+
+}
+
+footer {
+ background: rgba(195,184,167,0.7);rg
+}
+footer #container {
+
+}
+.footer_center {
+  margin-left: 311px;
+  color: #444444;
+  opacity: 1;
+    padding-top: 13px;
 
 
+}
+.footer_center>div {
+  display: inline-block;
+      width: 390px;
+      vertical-align: middle;
+      
+}
+.text {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+.buttons {
+  display: inline-block;
+}
+.buttons div {
+  display: inline-block;
+  width: 115px;
+  text-align: center;
+  padding: 2px 0;
+  border: 1px solid  #c3b8a7;;
+  font-size: 18px;
+  margin: 0 0px 0 11px;
+  cursor: pointer;
+  font-family: "FetteEngschrift";
+font-weight: 500;
+}
+.buttons a {
+    color: #444444;
+}
+
+.buttons div:hover {
+
+}
 
 
 
