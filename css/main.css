@@ -140,10 +140,12 @@ nav a:hover {
   color: #5fa438;
   font-family: 'Raleway', sans-serif;
 }
-.number  img {
-    width: 6%;
+
+.number img {
+  width: 6%;
   height: auto;
 }
+
 #content {
   width: 1119px;
 }
@@ -165,8 +167,7 @@ h2 {
   width: 432px;
 }
 
-h2 span {
-}
+h2 span {}
 
 #content p {
   font-family: 'Raleway', sans-serif;
@@ -263,6 +264,7 @@ h1.contakt {
 h1.worktime {
   margin: 51px 0 33px 0;
 }
+
 p.phone {
   font-size: 19px;
 }
@@ -279,6 +281,7 @@ p.phone {
 table td:first-child {
   width: 130px;
 }
+
 p.author {
   margin: 25px 0 50px 0;
 }
@@ -288,11 +291,13 @@ p.author {
   font-size: 19px;
   margin: 126px 0 30px 0;
 }
+
 .partner img {
-    width: 47%;
+  width: 47%;
   height: auto;
   margin: 0 20px 24px 0;
 }
+
 h1.partner {
   margin: -98px 0 29px 0;
 }
@@ -308,7 +313,8 @@ footer #container {}
   color: #444444;
   opacity: 1;
   padding-top: 38px;
-  padding-bottom: 20px;;
+  padding-bottom: 20px;
+  ;
 }
 
 .footer_center>div {
@@ -341,10 +347,6 @@ footer #container {}
   font-weight: 500;
   display: block;
   color: #444444;
-}
-.button:first-child {
-  font-family: 'Raleway', sans-serif;
-
 }
 
 .buttons a {
