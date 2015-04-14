@@ -1,28 +1,28 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 html {
-color: #222;
-font-size: 1em;
-line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 ::-moz-selection {
-background: #b3d4fc;
-text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-background: #b3d4fc;
-text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 hr {
-display: block;
-height: 1px;
-border: 0;
-border-top: 1px solid #ccc;
-margin: 1em 0;
-padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -31,89 +31,86 @@ iframe,
 img,
 svg,
 video {
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-border: 0;
-margin: 0;
-padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-resize: vertical;
+  resize: vertical;
 }
 
 .browserupgrade {
-margin: 0.2em 0;
-background: #ccc;
-color: #000;
-padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
-
-
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-
-
 /* FetteEngschrift */
+
 @font-face {
-font-family: "FetteEngschrift";
-src: url("../fonts/FetteEngschrift_gdi.eot");
-src: url("../fonts/FetteEngschrift_gdi.eot?#iefix")format("embedded-opentype"),
-url("../fonts/FetteEngschrift_gdi.woff") format("woff"),
-url("../fonts/FetteEngschrift_gdi.ttf") format("truetype");
-font-style: normal;
-font-weight: normal;
+  font-family: "FetteEngschrift";
+  src: url("../fonts/FetteEngschrift_gdi.eot");
+  src: url("../fonts/FetteEngschrift_gdi.eot?#iefix")format("embedded-opentype"), url("../fonts/FetteEngschrift_gdi.woff") format("woff"), url("../fonts/FetteEngschrift_gdi.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 html {
-background: url('../img/background.jpg') no-repeat scroll left top;
-background-size: 130%;
--moz-background-clip: border;
--moz-background-origin: padding;
--moz-background-inline-policy: continuous;
+  background: url('../img/background.jpg') no-repeat scroll left top;
+  background-size: 130%;
+  -moz-background-clip: border;
+  -moz-background-origin: padding;
+  -moz-background-inline-policy: continuous;
 }
-html > body #container {
 
-}
+html > body #container {}
 
 a {
-text-decoration: none;
-outline: none;
+  text-decoration: none;
+  outline: none;
 }
 
 a:hover {
-outline: none;
+  outline: none;
 }
+
 #logo {
-outline: none;
-height: 587px;
-width: 217px;
-margin-right: 80px;
-background: #5fa438;
-float: left;
+  outline: none;
+  height: 587px;
+  width: 217px;
+  margin-right: 80px;
+  background: #5fa438;
+  float: left;
 }
 
 #logo img {
   position: relative;
-top: 157px;
-left: 5px;
+  top: 157px;
+  left: 5px;
 }
+
 #logo a:hover img {
-outline: none;
+  outline: none;
 }
 
 nav ul {
-margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 15px 0 0 0;
-list-style-type: none;
+  list-style-type: none;
 }
+
 nav li {
-margin: 0;
-padding: 0;
-height: 53px;
+  margin: 0;
+  padding: 0;
+  height: 53px;
 }
 
 nav li {
@@ -121,57 +118,68 @@ nav li {
 }
 
 nav a {
-line-height: 35px;
-display: block;
-outline: none;
-background: #5fa438;
-color: white;
+  line-height: 35px;
+  display: block;
+  outline: none;
+  background: #5fa438;
+  color: white;
   padding: 4px 28px;
   font-family: "FetteEngschrift";
   font-size: 21px;
-    border: 1px solid #539434;
-}
-nav a:hover {
-background: #539434;
-}
-.number {
-  margin: 26px 39px 0 0px;
-  float: right;
-  font-family: "FetteEngschrift";
-  font-size: 22px;
-  color: #5fa438;
+  border: 1px solid #539434;
 }
 
+nav a:hover {
+  background: #539434;
+}
+
+.number {
+  margin: 26px 10px 0 0px;
+  float: right;
+  font-size: 24px;
+  color: #5fa438;
+  font-family: 'Raleway', sans-serif;
+}
+.number  img {
+    width: 6%;
+  height: auto;
+}
 #content {
   width: 1119px;
-
 }
 
 h1 {
-color: #9a5385;
-line-height: 1;
-font-family: "FetteEngschrift";
-font-weight: 500;
-font-size: 34px;
+  color: #9a5385;
+  line-height: 1;
+  font-family: "FetteEngschrift";
+  font-weight: 500;
+  font-size: 34px;
 }
+
 h2 {
   margin: 15px 0px 0 0;
-  font-size: 36px;
- color: #5fa438;
- font-weight: 500;
-font-family: "FetteEngschrift";
-}
-h2 span {
+  font-size: 33px;
+  color: #5fa438;
+  font-weight: 500;
   font-family: 'Raleway', sans-serif;
-
+  width: 432px;
 }
+
+h2 span {
+}
+
 #content p {
-font-family: 'Raleway', sans-serif;
-
+  font-family: 'Raleway', sans-serif;
 }
+
 .center {
   margin: 163px 0 120px 19px;
   width: 800px;
+}
+
+.description {
+  font-weight: bold;
+  padding: 15px 0 10px 0;
 }
 
 .foto > div {
@@ -179,33 +187,37 @@ font-family: 'Raleway', sans-serif;
   display: inline-block;
   margin: 0 13px 0 0px;
 }
+
 .foto img {
-width: 100%;
+  width: 100%;
 }
 
 .foto-kreativ>div {
-width: 31%;
-display: inline-block;
+  width: 31%;
+  display: inline-block;
   margin: 20px 10px 15px 0;
 }
+
 .foto-kreativ img {
-height: auto;
-width: 100%;
+  height: auto;
+  width: 100%;
 }
+
 .foto-kreativ figcaption {
-padding: 10px 0 0 5px;
-font-family: 'Raleway', sans-serif;
+  padding: 10px 0 0 5px;
+  font-family: 'Raleway', sans-serif;
 }
+
 #content p span {
-color: #5fa438;
+  color: #5fa438;
 }
 
 p.sribe {
-font-size: 12px;
+  font-size: 12px;
 }
 
 #content >div {
-display: inline-block;
+  display: inline-block;
   vertical-align: middle;
 }
 
@@ -218,33 +230,45 @@ iframe {
   left: 189px;
   border: 0;
 }
+
 #content+div {
   margin-right: 100px;
 }
+
 h1.aufbluhen {
-  margin-top: 38px;
+  margin-top: 65px;
 }
+
 h1.serviсe {
   margin-top: 92px;
 }
+
 h1.kreativ {
   margin-top: 131px;
 }
+
 h1.hochzeitst {
   margin-top: 156px;
 }
+
 h1.traur {
   margin-top: 135px;
-margin-bottom: 34px;
+  margin-bottom: 34px;
 }
+
 h1.contakt {
   margin: 7px 0 0 0;
 }
+
 h1.worktime {
-    margin: 51px 0 33px 0;
+  margin: 51px 0 33px 0;
 }
+p.phone {
+  font-size: 19px;
+}
+
 .center_kontakt {
-    margin: 52px 0 100px 19px;
+  margin: 52px 0 100px 19px;
 }
 
 .center_kontakt table,
@@ -253,194 +277,188 @@ h1.worktime {
 }
 
 table td:first-child {
-    width: 130px;
+  width: 130px;
 }
+p.author {
+  margin: 25px 0 50px 0;
+}
+
 .text_scribe {
   width: 780px;
- font-size: 19px;
+  font-size: 19px;
   margin: 126px 0 30px 0;
-
+}
+.partner img {
+    width: 47%;
+  height: auto;
+  margin: 0 20px 24px 0;
+}
+h1.partner {
+  margin: -98px 0 29px 0;
 }
 
 footer {
- background: rgba(195,184,167,0.7);rg
+  background: rgba(195, 184, 167, 0.7);
 }
-footer #container {
 
-}
+footer #container {}
+
 .footer_center {
   margin-left: 311px;
   color: #444444;
   opacity: 1;
-    padding-top: 13px;
-
-
+  padding-top: 38px;
+  padding-bottom: 20px;;
 }
+
 .footer_center>div {
+  width: 390px;
+  vertical-align: middle;
   display: inline-block;
-      width: 390px;
-      vertical-align: middle;
-      
 }
+
 .text {
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  color: #444444;
 }
+
 .buttons {
   display: inline-block;
+  float: right;
 }
+
 .buttons div {
-  display: inline-block;
   width: 115px;
   text-align: center;
-  padding: 2px 0;
-  border: 1px solid  #c3b8a7;;
+  padding: 3px 3px;
+  border: 3px solid #c3b8a7;
+  ;
   font-size: 18px;
-  margin: 0 0px 0 11px;
+  margin: 8px 0px 0 11px;
   cursor: pointer;
   font-family: "FetteEngschrift";
-font-weight: 500;
+  font-weight: 500;
+  display: block;
+  color: #444444;
 }
+.button:first-child {
+  font-family: 'Raleway', sans-serif;
+
+}
+
 .buttons a {
-    color: #444444;
+  color: #444444;
 }
 
-.buttons div:hover {
-
-}
-
-
-
-
-
-
-
-
-
-
+.buttons div:hover {}
 /* ==========================================================================
 Media Queries
 ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
-}
+@media only screen and (min-width: 35em) {}
 
 @media print,
-   (-o-min-device-pixel-ratio: 5/4),
-   (-webkit-min-device-pixel-ratio: 1.25),
-   (min-resolution: 120dpi) {
-
-}
-
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {}
 /* ==========================================================================
 Helper classes
 ========================================================================== */
 
 .hidden {
-display: none !important;
-visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 .visuallyhidden {
-border: 0;
-clip: rect(0 0 0 0);
-height: 1px;
-margin: -1px;
-overflow: hidden;
-padding: 0;
-position: absolute;
-width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-clip: auto;
-height: auto;
-margin: 0;
-overflow: visible;
-position: static;
-width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 .invisible {
-visibility: hidden;
+  visibility: hidden;
 }
 
 .clearfix:before,
 .clearfix:after {
-content: " ";
-display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-clear: both;
+  clear: both;
 }
 
 .clearfix {
-*zoom: 1;
+  *zoom: 1;
 }
-
 /* ==========================================================================
 Print styles
 ========================================================================== */
 
 @media print {
-*,
-*:before,
-*:after {
+  *,
+  *:before,
+  *:after {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
-}
-
-a,
-a:visited {
+  }
+  a,
+  a:visited {
     text-decoration: underline;
-}
-
-a[href]:after {
+  }
+  a[href]:after {
     content: " (" attr(href) ")";
-}
-
-abbr[title]:after {
+  }
+  abbr[title]:after {
     content: " (" attr(title) ")";
-}
-
-a[href^="#"]:after,
-a[href^="javascript:"]:after {
+  }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
     content: "";
-}
-
-pre,
-blockquote {
+  }
+  pre,
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
-}
-
-thead {
+  }
+  thead {
     display: table-header-group;
-}
-
-tr,
-img {
+  }
+  tr,
+  img {
     page-break-inside: avoid;
-}
-
-img {
+  }
+  img {
     max-width: 100% !important;
-}
-
-p,
-h2,
-h3 {
+  }
+  p,
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
-}
-
-h2,
-h3 {
+  }
+  h2,
+  h3 {
     page-break-after: avoid;
-}
+  }
 }
