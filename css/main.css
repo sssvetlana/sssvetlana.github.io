@@ -122,7 +122,7 @@ nav a {
   display: block;
   outline: none;
   background: #5fa438;
-  color: white;
+  color: white !important;
   padding: 4px 28px;
   font-family: "FetteEngschrift";
   font-size: 21px;
@@ -130,7 +130,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #539434;
+  background: #539434 !important;
 }
 
 .number {
@@ -319,7 +319,7 @@ footer #container {}
 }
 
 .footer_center>div {
-  width: 390px;
+  width: 400px;
   vertical-align: middle;
   display: inline-block;
 }
@@ -329,6 +329,14 @@ footer #container {}
   font-family: 'Raleway', sans-serif;
   color: #444444;
 }
+
+.x{ font-size:10px; color:#B9B9B9; margin-top:20px; position:relative; display:block;}
+
+#container a:link, #container a:visited{
+color: #5fa438;}
+
+#container a:hover{
+	opacity:0.7;}
 
 .buttons {
   display: inline-block;
@@ -347,11 +355,11 @@ footer #container {}
   font-family: "FetteEngschrift";
   font-weight: 500;
   display: block;
-  color: #444444;
+  color: #444444 !important;
 }
 
 .buttons a {
-  color: #444444;
+  color: #444444 !important;
 }
 
 .buttons div:hover {}
